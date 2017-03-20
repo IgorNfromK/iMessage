@@ -15,6 +15,12 @@ class MessagesViewController: MSMessagesAppViewController {
     
     @IBAction func Button(_ sender: Any) {
         label.text = "HI ALL!"
+        let layout = MSMessageTemplateLayout()
+        layout.caption = "Hello World"
+        layout .image = UIImage(named: "animal.jpeg")
+        let message = MSMessage()
+        message.layout = layout
+        activeConversation?.insert(message, completionHandler: nil)
     }
     
     override func viewDidLoad() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78593E9D1E80846800636C89 /* animal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 78593E9C1E80846800636C89 /* animal.jpeg */; };
 		78FAF9D41E7B2FDE00CE0BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAF9D31E7B2FDE00CE0BC7 /* AppDelegate.swift */; };
 		78FAF9D61E7B2FDE00CE0BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAF9D51E7B2FDE00CE0BC7 /* ViewController.swift */; };
 		78FAF9D91E7B2FDE00CE0BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FAF9D71E7B2FDE00CE0BC7 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		78593E9C1E80846800636C89 /* animal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal.jpeg; sourceTree = "<group>"; };
 		78FAF9D01E7B2FDE00CE0BC7 /* iMessage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMessage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FAF9D31E7B2FDE00CE0BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78FAF9D51E7B2FDE00CE0BC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				78FAF9EE1E7B304600CE0BC7 /* MessagesViewController.swift */,
 				78FAF9F01E7B304600CE0BC7 /* MainInterface.storyboard */,
+				78593E9C1E80846800636C89 /* animal.jpeg */,
 				78FAF9F31E7B304600CE0BC7 /* Assets.xcassets */,
 				78FAF9F51E7B304600CE0BC7 /* Info.plist */,
 			);
@@ -226,6 +229,7 @@
 			files = (
 				78FAF9F41E7B304600CE0BC7 /* Assets.xcassets in Resources */,
 				78FAF9F21E7B304600CE0BC7 /* MainInterface.storyboard in Resources */,
+				78593E9D1E80846800636C89 /* animal.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,7 @@
 				78FAF9E41E7B2FDE00CE0BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78FAF9F91E7B304600CE0BC7 /* Build configuration list for PBXNativeTarget "iMessage ext" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +466,7 @@
 				78FAF9FB1E7B304600CE0BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
